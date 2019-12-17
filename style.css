@@ -1,0 +1,57 @@
+body{
+	text-align: center;
+	margin:0;
+	background: black;
+	color: white;
+}
+
+
+
+
+#cyan{
+	background: lightblue;
+	padding: 1%;
+
+}
+#gallery{
+
+	
+	width: 70%;
+	margin: auto;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-evenly;
+	
+}
+
+#video{
+display: flex;
+width: 80%;
+margin: auto;
+flex-direction: column;
+flex-wrap: wrap;
+margin-top: 50px;
+padding: 1%;
+background: black;
+border-radius: 50px;
+align-items: center;
+justify-content: space-evenly;
+}
+
+img{
+height: inherit;
+width: 26%;
+border-radius: 25px;
+margin: 10px 0px;
+}
+
+video{
+	height: 300px;
+	width: inherit;
+	border: 5px inset white;
+	margin: 50px 30px;
+	
+
+}
+
+
